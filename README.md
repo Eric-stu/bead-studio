@@ -1,7 +1,9 @@
+
 # Bead Studio
 
 拼豆图案编辑器 - 一个用于创建和编辑 Perler Bead 拼豆图案的桌面应用。
 
+release中的压缩包解压后点击exe文件即可使用
 ## 功能
 
 - **图片转图纸** - 上传图片自动转换为拼豆图案，支持调整尺寸、亮度、对比度
@@ -48,7 +50,8 @@ npm run build
 
 ## 截图
 
-![Bead Studio](screenshot.png)
+![Bead Studio](screenshot.png<img width="1498" height="1122" alt="5242ee21ce057331e2fbbddd0c15de7d" src="https://github.com/user-attachments/assets/5c0b183d-1942-4362-8936-61d3dd8a2bed" />
+)
 
 ## 许可
 
