@@ -13,6 +13,7 @@ const BRAND_LABELS: Record<BrandType, string> = {
   artkal: 'Artkal',
   hama: 'Hama',
   perler: 'Perler',
+  mard741: '741',
 }
 
 export function ColorPalette({ palette, brand, selectedColor, onBrandChange, onColorSelect }: ColorPaletteProps) {
@@ -26,7 +27,7 @@ export function ColorPalette({ palette, brand, selectedColor, onBrandChange, onC
     <div className="flex flex-col h-1/2 border-b border-bead-border">
       <div className="px-3 py-2 border-b border-bead-border">
         <div className="flex gap-1 mb-2">
-          {(['artkal', 'hama', 'perler'] as BrandType[]).map(b => (
+          {(['artkal', 'hama', 'perler', 'mard741'] as BrandType[]).map(b => (
             <button
               key={b}
               onClick={() => onBrandChange(b)}

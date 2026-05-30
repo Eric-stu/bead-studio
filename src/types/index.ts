@@ -6,7 +6,7 @@ export interface BeadColor {
   code: string
 }
 
-export type BrandType = 'artkal' | 'hama' | 'perler'
+export type BrandType = 'artkal' | 'hama' | 'perler' | 'mard741'
 
 export interface GridCell {
   color: BeadColor | null

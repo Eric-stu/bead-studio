@@ -3,6 +3,7 @@ import { BeadColor, BrandType, GridData, GridCell, ExportOptions } from './types
 import { artkalColors } from './data/artkal'
 import { hamaColors } from './data/hama'
 import { perlerColors } from './data/perler'
+import { mard741Colors } from './data/mard741'
 import { HistoryManager } from './core/history'
 import { Canvas } from './components/Canvas'
 import { Toolbar } from './components/Toolbar'
@@ -15,6 +16,7 @@ const BRAND_PALETTES: Record<BrandType, BeadColor[]> = {
   artkal: artkalColors,
   hama: hamaColors,
   perler: perlerColors,
+  mard741: mard741Colors,
 }
 
 const DEFAULT_WIDTH = 29
